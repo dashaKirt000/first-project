@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблицы и формы</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table class="bill-table">
+        <thead>
+            <tr>
+                <th>название</th>
+                <th>цена</th>
+                <th>кол-во</th>
+                <th>стоимость</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>карандаш</td>
+                <td>20</td>
+                <td>4</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>ручка</td>
+                <td>50</td>
+                <td>2</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>ластик</td>
+                <td>15</td>
+                <td>3</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td colspan="">итог</td>
+                <td>225</td>
+            </tr>
+        </tbody>
+    </table>
+    <form id="reg-form">
+        <label for="name">введите имя</label><br>
+        <input id="name" name="name" type="text" placeholder="имя" required><br>
+        <label for="pass">введите пароль</label><br>
+        <input id="pass" name="pass" type="password" placeholder="пароль" required><br>
+
+        <input type="radio" id="gendre-m" name="gender" value="male">
+        <label for="gender-m">муж</label>
+        <input type="radio" id="gendre-f" name="gender" value="female">
+        <label for="gender-f">жен</label><br>
+
+        <input type="submit" value="Зарегистрироваться">
+        <input type="reset">
+    </form>
+
+</body>
+</html>

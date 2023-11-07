@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Три дня дождя</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Три дня дождя</h1>
+        <img src="img/box2-heart.svg" class="jjj" alt="логотип" width="50px">
+    </header>
+    <main>
+        <section id="name">
+        <nav>
+            <ul>
+                <li><a href="#about"> О группе</a></li>
+                <li><a href="#start">О названии группы</a></li>
+                <li><a href="#release">Участники релиза</a></li>
+                <li><a href="#articles"> Мои статьи</a></li>
+                <li><a href="#back"> Обратная связь</a></li>
+            </ul>
+        </nav>
+        </section>
+        <section id="about">
+            <h2>О группе</h2>
+            <a class="avatar" download=""><img src="img/338520_large.jpg" alt="Фото автора">
+            </a>
+             <blockquote>
+                    „«Однажды всё пройдёт» — ты запомни эти слова“
+	            <cite>Глеб Викторов</cite>
+            </blockquote>
+            <p>«Три дня дождя» – коллектив, который сформировался на территории Сочи (Россия) в 2020 году. У истоков группы стоит талантливый Глеб Викторов. <span class="blue">Он начинал с того, что сочинял биты</span> для других артистов, но вскоре сменил направление своей творческой деятельности и реализовал себя в качестве рок-певца.</p>
+            <p>Выше уже было отмечено, что лидером новоиспечённой группы стал некий Глеб Викторов. Он самостоятельно пишет треки и исполняет их. Иногда он появляется на фитах других певцов.</p>
+            <p lang="en">English text English text English text English text English text English text English text English text English text English text </p>
+        </section>
+        <section id="start">
+            <h3>О названии группы</h3>
+            <p>Изначально название группы было псевдонимом её основателя Глеба Викторова. Название Глеб взял в честь клуба «Три дня дождя» в Красноярске, про который ему рассказала старшая родная сестра.<span class="rad">23 октября 2019 года</span> был выпущен первый сингл Глеба. Для всех релизов, выпущенных в период с первого сингла до альбома «Когда ты откроешь глаза», выпущенного 4 июня 2021 года, музыку писал сам Глеб. </p>
+        </section>
+        <section id="release">
+            <h4>В релизе «Когда ты откроешь глаза» музыкой занимались:</h4>
+            <ol> 
+                <li>Глеб Викторов</li>
+                <li>Кирилл Гуд</li>
+                <li>Тихон Баслин</li>
+                <li>Александр Крейза</li>
+                <li>Сергей Slem</li>
+            </ol>
+            <p> Как утверждает Викторов в интервью от марта 2021 года, он является лицом группы (издание Karmapolitan также называет его «лидером группы»), но не может назвать проект полноценной группой: «Сейчас это 50/50: пацаны могут что‑то прописать, но мы никогда не собирались всей толпой что‑то записывать — если речь идёт о группе».</p>
+        </section>
+        <section id="articles">
+            <h2>Мои статьи</h2>
+            <ol class="menu-articles">
+                <li><a href="article1.html">История создания группы</a></li>
+                <li><a href="article2.html">Глеб Викторов(биография)</a></li>
+                <li><a href="article3.html">"Три дня дождя" сегодня</a></li>
+            </ol>
+        </section>
+        <section id="back">
+            <h2>Обратная связь</h2>
+            <form id="contact-form">
+                <div>
+                    <label for="form__item"><em>Тема</em></label><br>
+                    <select name="topic" id="topic" required placeholder>
+                        <option value="1">Заказать услугу</option>
+                        <option value="2">Оставть отзыв</option>
+                        <option value="3">Продолжить сотрудничество</option>
+                        <option value="4">Другое</option>
+                    </select>
+                </div>
+                <div class="form__item">
+                    <label for="name"><em>Имя</em></label><br>
+                    <input name="name" id="name" type="text" placeholder required><br>
+                </div>
+                <div class="form__item">
+                    <label for="e-mail"><em>E-mail</em></label><br>
+                    <input name="e-mail" id="e-mail" type="email" placeholder required><br>
+                </div>
+                <div class="form__item">
+                    <label for="textarea"><em>Текст сообщения</em></label><br>
+                    <textarea id="textarea" placeholder required rows="3"></textarea><br>                    
+                </div>
+                <div class="form__item">
+                    <label for="date"><em>Дата</em></label><br>
+                    <input name="date" id="date" type="date" placeholder required><br>
+                </div>
+                <div class="form__item">
+                    <label for="tel"><em>Номер телефона</em></label><br>
+                    <input name="tel" id="tel" type="tel" placeholder required pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"><br>
+                </div>
+                <div class="form__item">
+                    <label for="checkbox"><em>Флажок</em></label><br>
+                    <input name="checkbox" id="checkbox" type="checkbox" value="1 вариант" placeholder required>
+                    <br>
+                </div>
+                <div class="form__item">
+                    <input type="submit" value="Отправить">
+                </div>
+            </form>
+
+        </section>
+    </main>
+    <footer class="fon">
+    <p>&copy; Киртьянова Дарья, 2023</p>
+    <p>Вы также можете найти меня здесь </p>
+    <a target="_blank" href="https://vk.com/dashdashkarandashhh"><img src="img/vk.svg" alt="логотип ВКонтакте" width="50px"></a>
+    <a target="_blank" href="https://web.telegram.org/k/"><img src="img/telegram.svg" alt="логотип Телеграмм" width="50px"></a>
+    <a target="_blank" href="https://discord.com/"><img src="img/discord.svg" alt="логотип Дискорда" width="50px"></a>
+    </footer>
+    
+</body>
+</html>

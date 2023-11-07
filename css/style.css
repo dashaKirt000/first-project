@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 1.2em;
+    font-family: 'Martian Mono', monospace;
+}
+
+header {
+    background-color: rgb(146, 137, 144);
+    text-align: center;
+}
+main {
+    background-color: lavender;
+}
+footer {
+    background-color: rgb(106, 114, 114);
+    padding: 10px 50px;
+}
+#about {
+    background-color: rgb(143, 97, 97);
+    padding: 10px 50px;
+    text-align: center;
+    font-style: italic;
+    border: 5px solid black;
+}
+#start{
+    text-align: center;
+    background-color: rgb(199, 182, 140);
+    padding: 10px 50px;
+}
+#release{
+text-align: center;
+padding: 10px 50px;
+background-color: rgb(96, 69, 121);
+}
+#articles {
+    background-color: rgb(182, 212, 233);
+    padding: 10px 50px;
+}
+
+p {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-bottom: 0.9rem;
+}
+h1 {
+    font-size: 1.5rem;
+}
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+h4{
+    text-decoration: dotted;
+}
+ul {
+    list-style: none;
+}
+#content {
+    padding:10px 50px;
+    text-align: center;
+}
+#time{
+    text-align: left;
+}
+ol{
+    text-align: left;
+}
+li{
+    text-align: left;
+}
+img {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+#compound{
+    font-style: italic;
+  text-decoration:underline;
+}
+#name {
+    text-align: left;
+    background-color: rgb(182, 212, 233);
+    padding: 10px 50px;
+}
+#chapter {
+    text-align: center;
+    background-color: rgb(151, 171, 189);
+    padding: 10px 50px;
+}
+#history{
+    text-align: center;
+    padding: 10px 50px;
+    background-color: bisque;
+}
+#gleb {
+    text-align: center;
+    padding: 10px 50px;
+    background-color: bisque;
+}
+#earnings{
+    text-align: center;
+    padding: 10px 50px;
+    background-color: rgb(191, 152, 192);
+}
+#brand{
+    text-align: center;
+    padding: 10px 50px;
+    background-color: rgb(107, 182, 160);
+}
+#spring{
+    text-align: center;
+    padding: 10px 50px;
+    background-color: rgb(95, 145, 130);
+}
+#new{
+    text-align: center;
+    padding: 10px 50px;
+    background-color: rgb(118, 149, 218);
+}
+#today{
+    text-align: center;
+    padding: 10px 50px;
+    background-color: rgb(166, 185, 152);
+}
+img{
+    border: 10px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 10px whitesmoke;
+    margin: 10px 0px 10px 10px;
+}
+
+#articles a:link{
+    color:rgb(163, 107, 107)
+}
+#articles a:hover{
+    color:black
+}
+#articles a:focus{
+    color:rgb(140, 170, 160)
+}
+#articles a:visited{
+    color:rgb(43, 43, 4)
+}
+#articles a:active{
+    color:rgb(34, 8, 58)
+}
+#articles a:active{
+    color:rgb(23, 235, 136)
+}
+.menu-articles li{
+    background-color: rgb(142, 142, 216);
+}
+
+.menu-articles li:nth-child(2n){
+    background-color: rgb(165, 218, 200);
+}
+
+p:lang(en){
+    text-transform: uppercase;
+}
+#about h2::after{
+    content: "new!";
+    font-size: 10px;
+    color: bisque;
+    margin-left: 10px;
+}
+#group .plus::after{
+    content: "Важно!";
+    font-size: 10px;
+    color: rgb(201, 132, 132);
+    margin-left: 10px;
+    text-decoration: underline;
+    border-color: rgb(59, 64, 110);
+}
+p::first-line{
+    letter-spacing: 5px;
+}
+#about .blue{
+    text-transform: uppercase;
+    color: azure;
+}
+#start .rad{
+    color: rgb(172, 125, 117);
+}
+#history p:hover{
+    color: rgb(127, 146, 255);
+}
+a+p,
+a+h4,
+a+blockquote{
+    margin-top: 56px;
+}
+img+p,
+img+h3{
+    margin-top: 67px;
+}
+
+
+.bill-table{
+    border: 5px rgb(230, 128, 12) solid;
+    border-collapse: collapse;
+}
+.bill-table td, 
+.bill-table th{
+    border-bottom: 1px rgb(165, 118, 31) solid;
+    padding: 5px 20px;
+}
+.bill-table tbody tr:nth-child(odd) {
+color: rgb(78, 71, 175);
+}
+.bill-table td:nth-child(1){
+    text-decoration: underline;
+}
+.bill-table thead th:nth-child(even) {
+    color: rgb(34, 20, 233);
+    }
+
+#reg-form input[type=text],
+#reg-form input[type=password]{
+    border: 1px solid blue;
+    background: lightcoral;
+    border-radius: 5px;
+    padding: 5px 20px;
+    min-width: 180px;
+    color: blueviolet;
+}
+#contact-form input[type="text"]{
+    height: 30px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 3px;
+    background-color: #eddfff;
+}
+#contact-form label[label="topic"]{
+    background-color: #eddfff;
+    height: 30px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 3px;
+}
+
+#contact-form input[type="submit"]{
+    background-color: rgb(137, 92, 158);
+    height: 30px;
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 3px;
+    text-align: center;
+}
+#contact-form select{
+    background-color: #eddfff;
+}
+#back{
+    background-color: rgb(106, 81, 143);
+
+}
+#contact-form[type="submit"]{
+    background-color: #8c67bd; 
+}
+#contact-form input[type="submit"]:hover{
+    background-color: rgb(184, 164, 212);
+}
+#contact-form textarea{
+    background-color: #eddfff;
+    height: 30px;
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 3px;
+}
+em{
+    color: white;
+}
+#contact-form input[type="email"]{
+    height: 30px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 3px;
+    background-color: #eddfff;
+}
+#contact-form input[type="date"]{
+    height: 30px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 3px;
+    background-color: #eddfff;
+}
+#contact-form input[type="tel"]{
+    height: 30px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 3px;
+    background-color: #eddfff;
+}
+#contact-form input[type="checkbox"]{
+    margin-left: auto;
+    height: 30px;
+    width: 40px;
+}
+
+
+
+
+
+
+
